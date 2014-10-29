@@ -1,0 +1,22 @@
+{
+    "name": "royopa/RespectValidationServiceProvider",
+    "description": "Respect Validation Service Provider to use with Silex microframework",
+    "homepage": "http://github.com/royopa/RespectValidationServiceProvider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Prado de Jesus",
+            "email": "royopa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "respect/validation": "~0.7.*@dev",
+        "silex/silex": "~1.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Royopa\\Silex\\Provider\\Respect\\Validation" : "src/"
+        }
+    }
+}
