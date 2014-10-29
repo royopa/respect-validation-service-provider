@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "respect/validation": "~0.7.*@dev",
+        "respect/validation": "~0.7",
         "silex/silex": "~1.0"
     },
     "autoload" : {
