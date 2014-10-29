@@ -1,7 +1,7 @@
 {
-    "name": "royopa/RespectValidationServiceProvider",
+    "name": "royopa/respect-validation-service-provider",
     "description": "Respect Validation Service Provider to use with Silex microframework",
-    "homepage": "http://github.com/royopa/RespectValidationServiceProvider",
+    "homepage": "http://github.com/royopa/respect-validation-service-provider",
     "license": "MIT",
     "authors": [
         {
