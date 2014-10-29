@@ -23,4 +23,34 @@ class RespectValidationServiceProviderTest extends \PHPUnit_Framework_TestCase
         $app->register(new RespectValidationServiceProvider());
         $this->assertInstanceOf('Respect\Validation\Validator', $app['respect.validator']);
     }
+
+    public function testCountryCode()
+    {
+        $app = new Application();
+        $app->register(new RespectValidationServiceProvider());
+        $this->assertTrue(
+            $app['respect.validator']::countryCode()
+            ->validate('BR')
+        );
+    }
+
+    public function testAlwaysValid()
+    {
+        $app = new Application();
+        $app->register(new RespectValidationServiceProvider());
+        $this->assertTrue(
+            $app['respect.validator']::alwaysValid()
+            ->validate('sojdnfjsdnfojsdnfos dfsdofj sodjf ')
+        );
+    }
+
+    public function testAlwaysInvalid()
+    {
+        $app = new Application();
+        $app->register(new RespectValidationServiceProvider());
+        $this->assertFalse(
+            $app['respect.validator']::alwaysInvalid()
+            ->validate('sojdnfjsdnfojsdnfos dfsdofj sodjf ')
+        );
+    }
 }
