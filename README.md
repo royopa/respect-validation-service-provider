@@ -16,6 +16,20 @@ Instalation
 
 Package available on [Composer](https://packagist.org/packages/royopa/RespectValidationServiceProvider). Autoloading with [composer](http://getcomposer.org/) is [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compatible.
 
+    $ composer require "royopa/respect-validation-service-provider": "dev-master"
+    
+Or
+
+You can include the following in your composer.json file:
+
+```json
+{
+    "require": {
+        "royopa/respect-validation-service-provider": "dev-master"
+    }
+}
+```
+
 Usage
 -----
 
