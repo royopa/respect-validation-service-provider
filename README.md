@@ -5,6 +5,8 @@ Provides Respect Validation to use with Silex microframework.
 
 http://documentup.com/Respect/Validation/
 
+[![Build Status](https://travis-ci.org/royopa/respect-validation-service-provider.png?branch=master)](https://travis-ci.org/royopa/respect-validation-service-provider)
+
 Requirements
 ------------
 
