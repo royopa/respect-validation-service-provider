@@ -1,11 +1,12 @@
 RespectValidationServiceProvider
 ================================
 
+[![Build Status](https://travis-ci.org/royopa/respect-validation-service-provider.png?branch=master)](https://travis-ci.org/royopa/respect-validation-service-provider)
+[![Latest Stable Version](https://poser.pugx.org/royopa/respect-validation-service-provider/v/stable.svg)](https://packagist.org/packages/royopa/respect-validation-service-provider) [![Total Downloads](https://poser.pugx.org/royopa/respect-validation-service-provider/downloads.svg)](https://packagist.org/packages/royopa/respect-validation-service-provider) [![Latest Unstable Version](https://poser.pugx.org/royopa/respect-validation-service-provider/v/unstable.svg)](https://packagist.org/packages/royopa/respect-validation-service-provider) [![License](https://poser.pugx.org/royopa/respect-validation-service-provider/license.svg)](https://packagist.org/packages/royopa/respect-validation-service-provider)
+
 Provides Respect Validation to use with Silex microframework.
 
 http://documentup.com/Respect/Validation/
-
-[![Build Status](https://travis-ci.org/royopa/respect-validation-service-provider.png?branch=master)](https://travis-ci.org/royopa/respect-validation-service-provider)
 
 Requirements
 ------------
